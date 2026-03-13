@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio built with HTML, CSS, and JavaScript.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "liveUrl": "https://my-ci-cd-docker-k8s.vercel.app",
+    "repoUrl": "https://github.com/poojapooja20029-tech/my-ci-cd-docker-k8s"
+  },
+  {
+    "id": 2,
+    "title": "Task Manager App",
+    "description": "A simple to-do app with local storage persistence.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "liveUrl": "#",
+    "repoUrl": "#"
+  },
+  {
+    "id": 3,
+    "title": "Weather Dashboard",
+    "description": "Displays live weather data using a public API.",
+    "techStack": ["JavaScript", "Fetch API", "CSS"],
+    "liveUrl": "#",
+    "repoUrl": "#"
+  }
+]
