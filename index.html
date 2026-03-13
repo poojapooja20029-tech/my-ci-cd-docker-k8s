@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pooja | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Pooja<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Pooja</h1>
+      <h2 class="hero-role">Full Stack Developer</h2>
+      <p class="hero-desc">I build modern, responsive web applications using HTML, CSS, JavaScript, Node.js and Express — deployed on Vercel.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-dots"><span></span><span></span><span></span></div>
+        <pre><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-key">name</span>: <span class="c-str">"Pooja"</span>,
+  <span class="c-key">role</span>: <span class="c-str">"Full Stack Dev"</span>,
+  <span class="c-key">skills</span>: [
+    <span class="c-str">"HTML"</span>, <span class="c-str">"CSS"</span>,
+    <span class="c-str">"JavaScript"</span>,
+    <span class="c-str">"Node.js"</span>, <span class="c-str">"Express"</span>
+  ],
+  <span class="c-key">deployed</span>: <span class="c-str">"Vercel ✅"</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <div class="section-header">
+      <h2>My Projects</h2>
+      <p>Fetched live from the backend API</p>
+    </div>
+    <div id="projects-container" class="projects-grid">
+      <div class="loading">Loading projects...</div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <h2>Contact Me</h2>
+      <p>Send a message — powered by the backend API</p>
+    </div>
+    <form id="contact-form" class="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="e.g. Rahul Sharma" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="e.g. rahul@email.com" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+      <button type="submit" id="submit-btn" class="btn btn-primary">Send Message</button>
+      <div id="form-status" class="form-status"></div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>Made with ❤️ by <strong>Pooja</strong> · Deployed on Vercel</p>
+    <p><a href="https://github.com/poojapooja20029-tech/my-ci-cd-docker-k8s" target="_blank">GitHub Repo</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
